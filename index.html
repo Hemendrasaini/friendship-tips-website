@@ -15,23 +15,17 @@
         padding: 0px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-        background: url('frnds.jpg.jpg') no-repeat center center/cover;
+        background: url('../frnds.jpg') no-repeat center center/cover;
 
         background-size: fit;
 
-        background-attachment: fixed;
+
         font-family: "Trirong", serif;
     }
 
-    .left {
-        border: 2px solid blueviolet;
-        display: inline-block;
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        margin-top: 0%;
 
-    }
+
+
 
     .mid {
         display: block;
@@ -104,35 +98,41 @@
     }
 
     @keyframes harry2 {
-        0% {background-color: blue;
+        0% {
+            background-color: blue;
             top: 0px;
-            left:0px;
+            left: 0px;
         }
 
-        25%{background-color: green;
+        25% {
+            background-color: green;
             top: 0px;
-            left:100px;
+            left: 100px;
 
 
-    }
-    50%{
-        background-color: red;
+        }
+
+        50% {
+            background-color: red;
             top: 100px;
-            left:100px;
-        
-    }
-    75%{
-        background-color: yellow
-        (165, 19, 92);
+            left: 100px;
+
+        }
+
+        75% {
+            background-color: yellow (165, 19, 92);
             top: 100px;
-            left:0px;
-    }
-100%{background-color: rgb(82, 28, 116);
+            left: 0px;
+        }
+
+        100% {
+            background-color: rgb(82, 28, 116);
             top: 0px;
             left: 0px;
 
-}
+        }
     }
+
     .btn {
         width: 136px;
         height: 48px;
@@ -181,21 +181,28 @@
 
 
     }
-    .formrelated {border:9px solid rgb(248, 247, 247);box-shadow: 10px 8px 15px rgb(183, 221, 240);
-display: inline-block;
-margin-left: 1800px;
-margin-top: 50px;
-padding: 20px;
-border-radius: 15px;
-width: 650px;
-height: 500px;
-text-align: center;
-font-size: larger;
-color: white;
-font-weight: bold;
+
+    .formrelated {
+        border: 9px solid rgb(248, 247, 247);
+        box-shadow: 10px 8px 15px rgb(183, 221, 240);
+        display: inline-block;
+        margin-left: 1800px;
+        margin-top: 50px;
+        padding: 20px;
+        border-radius: 15px;
+        width: 650px;
+        height: 500px;
+        text-align: center;
+        font-size: larger;
+        color: white;
+        font-weight: bold;
 
     }
-    .formcontent input{ padding: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: antiquewhite;
+
+    .formcontent input {
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: antiquewhite;
         width: 500px;
         border: 2px solid black;
         margin: 3px auto;
@@ -231,20 +238,22 @@ font-weight: bold;
         </marquee>
 
 
-        <div class="left">i am left</div>
+
         <div class="right"><button class="btn"><a href="#">For Help</a> </button></div>
         <div class="right"><button class="btn1"><a href="#">For Tips</a></button></div>
     </header>
     <div class="formrelated">
         <h1>WE ARE ALWAYS HAPPY TO HELP YOU</h1>
-    
-    <form action="noaction.php">
-        <div class="formcontent"> <input type="text" name="" placeholder="Enter Your Name "></div>
-        <div class="formcontent"> <input type="text" name="" placeholder="Enter Your Age "></div>
-        <div class="formcontent"> <input type="text" name="" placeholder="Enter Your Gender "></div>
-        <div class="formcontent"> <input type="text" name="" placeholder="Enter Your Email.id "></div>
-        <div class="formcontent"> <input type="text" name="" placeholder="Tell Us Your Locality "></div>
-        <button class="btn">Submit</button>
-    </form></div>
+
+        <form action="noaction.php">
+            <div class="formcontent"> <input type="text" name="" placeholder="Enter Your Name "></div>
+            <div class="formcontent"> <input type="text" name="" placeholder="Enter Your Age "></div>
+            <div class="formcontent"> <input type="text" name="" placeholder="Enter Your Gender "></div>
+            <div class="formcontent"> <input type="text" name="" placeholder="Enter Your Email.id "></div>
+            <div class="formcontent"> <input type="text" name="" placeholder="Tell Us Your Locality "></div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
 </body>
+
 </html>
