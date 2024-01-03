@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hemendra's friendship tips </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        background: url('frnds.jpg.jpg') no-repeat center center/cover;
+
+        background-size: fit;
+
+        background-attachment: fixed;
+        font-family: "Trirong", serif;
+    }
+
+    .left {
+        border: 2px solid blueviolet;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        margin-top: 0%;
+
+    }
+
+    .mid {
+        display: block;
+        width: 1230px;
+        margin: 100px auto;
+        height: 58px;
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: center;
+
+    }
+
+    .right {
+        position: absolute;
+        font-weight: bold;
+        font-size: large;
+
+        width: 197px;
+        height: 100px;
+        display: inline-block;
+        right: 50px;
+        top: 80px;
+        color: rgb(247, 154, 41);
+    }
+
+    .navbar {
+        border: 10px solid grey;
+        border-radius: 20px;
+        box-shadow: 10px 8px 15px rgb(183, 221, 240);
+        width: 985px;
+        height: 60px;
+        display: inline-block;
+        /* margin-inline: 226px; */
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 30px;
+        margin: auto;
+
+    }
+
+    .navbar li a {
+        color: rgb(241, 183, 9);
+        padding: 30px;
+        justify-content: center;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: aqua;
+
+    }
+
+    .lefttext {
+        border: 5px solid rgb(246, 106, 30);
+        border-radius: 10px;
+        position: relative;
+        display: inline-block;
+
+        top: 100px;
+        font-size: 200%;
+        font-weight: bold;
+        color: rgb(21, 8, 2);
+        animation-name: harry2;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes harry2 {
+        0% {background-color: blue;
+            top: 0px;
+            left:0px;
+        }
+
+        25%{background-color: green;
+            top: 0px;
+            left:100px;
+
+
+    }
+    50%{
+        background-color: red;
+            top: 100px;
+            left:100px;
+        
+    }
+    75%{
+        background-color: yellow
+        (165, 19, 92);
+            top: 100px;
+            left:0px;
+    }
+100%{background-color: rgb(82, 28, 116);
+            top: 0px;
+            left: 0px;
+
+}
+    }
+    .btn {
+        width: 136px;
+        height: 48px;
+        border: solid orange;
+        border-radius: 10px;
+        color: rgb(10, 11, 10);
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    .btn1 {
+        font-weight: bold;
+        margin-top: 0px;
+        margin-left: -107px;
+        width: 109px;
+        height: 49px;
+        border: solid orange;
+        border-radius: 10px;
+        color: rgb(10, 11, 10);
+        font-size: larger;
+    }
+
+    .btn1 a:hover,
+    .btn1 a.active {
+        text-decoration: underline;
+        color: rgb(238, 144, 238);
+    }
+
+    .btn a:hover,
+    .btn a.active {
+        text-decoration: underline;
+        color: rgb(238, 144, 238);
+    }
+
+    .marq {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .geek1 {
+        font-size: 46px;
+        font-weight: bold;
+        color: #e49dd9;
+        text-shadow: 3px 4px 5px white;
+
+
+    }
+    .formrelated {border:9px solid rgb(248, 247, 247);box-shadow: 10px 8px 15px rgb(183, 221, 240);
+display: inline-block;
+margin-left: 1800px;
+margin-top: 50px;
+padding: 20px;
+border-radius: 15px;
+width: 650px;
+height: 500px;
+text-align: center;
+font-size: larger;
+color: white;
+font-weight: bold;
+
+    }
+    .formcontent input{ padding: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: antiquewhite;
+        width: 500px;
+        border: 2px solid black;
+        margin: 3px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        display: block;
+
+    }
+</style>
+
+<body>
+    <!-- this is a left box -->
+    <header class="header">
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home </a></li>
+                <li><a href="#">Sandeep</a></li>
+                <li><a href="#">Hemendra</a></li>
+                <li><a href="#">Mannu </a></li>
+                <li><a href="#">Amit Kandari </a></li>
+
+
+            </ul>
+        </div>
+
+
+
+        <div class="container">
+            <div class="lefttext">MY BROTHERS.com</div>
+        </div>
+        <marquee class="marq" direction="left" loop="">
+            <div class="geek1">Learn How To Enjoy Life</div>
+        </marquee>
+
+
+        <div class="left">i am left</div>
+        <div class="right"><button class="btn"><a href="#">For Help</a> </button></div>
+        <div class="right"><button class="btn1"><a href="#">For Tips</a></button></div>
+    </header>
+    <div class="formrelated">
+        <h1>WE ARE ALWAYS HAPPY TO HELP YOU</h1>
+    
+    <form action="noaction.php">
+        <div class="formcontent"> <input type="text" name="" placeholder="Enter Your Name "></div>
+        <div class="formcontent"> <input type="text" name="" placeholder="Enter Your Age "></div>
+        <div class="formcontent"> <input type="text" name="" placeholder="Enter Your Gender "></div>
+        <div class="formcontent"> <input type="text" name="" placeholder="Enter Your Email.id "></div>
+        <div class="formcontent"> <input type="text" name="" placeholder="Tell Us Your Locality "></div>
+        <button class="btn">Submit</button>
+    </form></div>
+</body>
+</html>
